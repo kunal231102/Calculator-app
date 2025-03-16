@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:gravity="end"
+        android:padding="16dp"
+        android:textSize="32sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:columnCount="4"
+        android:padding="5dp"
+        android:rowCount="5">
+
+        <!-- Number Buttons -->
+        <Button
+            android:onClick="onNumberClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="7" />
+
+        <Button
+            android:onClick="onNumberClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="8" />
+
+        <Button
+            android:onClick="onNumberClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="9" />
+
+        <Button
+            android:onClick="onOperatorClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="÷" />
+
+        <Button
+            android:onClick="onNumberClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="4" />
+
+        <Button
+            android:onClick="onNumberClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="5" />
+
+        <Button
+            android:onClick="onNumberClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="6" />
+
+        <Button
+            android:onClick="onOperatorClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="×" />
+
+        <Button
+            android:onClick="onNumberClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="1" />
+
+        <Button
+            android:onClick="onNumberClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="2" />
+
+        <Button
+            android:onClick="onNumberClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="3" />
+
+        <Button
+            android:onClick="onOperatorClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="−" />
+
+        <Button
+            android:onClick="onClearClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="C" />
+
+        <Button
+            android:onClick="onNumberClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="0" />
+
+        <Button
+            android:onClick="onEqualsClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="=" />
+
+        <Button
+            android:onClick="onOperatorClick"
+            android:background="@drawable/rounder_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="+" />
+
+    </GridLayout>
+
+</LinearLayout>
